@@ -11,15 +11,19 @@ Alerting system to notify users when specific weather conditions (like high temp
 Database storage of daily weather summaries for further analysis.
 Visualizations (optional) of weather trends and triggered alerts.
 # 1. Setup Instructions
+
 **1.1 Get an API Key from OpenWeatherMap**
 Go to OpenWeatherMap API.
 Sign up for a free account.
 Once logged in, navigate to the API keys section in your account.
 Copy your API key, which will be needed to access weather data.
+
 **1.2 Clone the Repository**
 
 --git clone https://github.com/your-username/weather-monitoring-system.git
+
 --cd weather-monitoring-system
+
 **1.3 Configure the Project**
 Update config.py with your API key, preferred cities, and polling intervals:
 Open src/config.py:
