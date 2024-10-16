@@ -36,17 +36,23 @@ Adjust the cities and interval as per your requirements.
 # 2. Running the Application
 **2.1 Install Dependencies**
 This project requires Python 3.9 or higher. Install the required dependencies using the following:
+
 pip install -r requirements.txt
 
 **2.2 Running with Python**
 After configuring the config.py file, you can run the application directly using Python:
+
 python src/main.py
 
 **2.3 Running with Docker**
 This project can be run in a Docker container for easy deployment.
+
 Build the Docker image:
+
 docker build -t weather-monitoring-system .
+
 Run the Docker container:
+
 docker run -d weather-monitoring-system
 # 3. Dependencies
 requests: To interact with the OpenWeatherMap API for retrieving weather data.
@@ -79,11 +85,15 @@ The system can be extended to fetch weather forecasts from the API and generate 
 # 6. Testing the Application
 
 Test cases are available in the tests/ folder. You can run the tests using any Python test runner, such as pytest:
-pytest tests/
-Tests include:
+
+pytest tests/Tests include:
+
 Data retrieval and parsing
+
 Temperature conversions
+
 Daily rollup and aggregation logic
+
 Alerting conditions
 
 
@@ -95,4 +105,4 @@ Alerting conditions
 
 
 
-Chat
+
