@@ -49,12 +49,16 @@ Docker (optional): For containerized deployment of the system.
 # 4. Design Decisions
 **4.1 Python for Simplicity and Flexibility**
 Python was chosen as the primary language due to its simplicity, extensive library support (such as requests for API interaction), and flexibility for handling data processing.
+
 **4.2 SQLite for Lightweight Data Storage**
 SQLite is used as the database to store daily weather summaries due to its lightweight nature and ease of use. It doesn't require any setup or external dependencies, making it ideal for this type of project.
+
 **4.3 Modular Structure**
 The code is split into multiple modules (weather_data_processor.py, alert_manager.py, db_manager.py) to ensure separation of concerns and make the system easier to extend and maintain.
+
 **4.4 Docker for Portability**
 Docker was included to containerize the system, allowing it to run consistently across various environments. This makes the application easy to deploy, test, and scale if needed.
+
 # 5. Additional Features and Extension Ideas
 **5.1 Extending Weather Parameters**
 Additional weather parameters such as humidity, wind speed, and pressure can be retrieved from the API and incorporated into the daily summaries and alerting system.
