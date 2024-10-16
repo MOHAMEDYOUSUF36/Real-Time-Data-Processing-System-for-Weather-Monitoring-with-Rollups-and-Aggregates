@@ -17,13 +17,11 @@ Sign up for a free account.
 Once logged in, navigate to the API keys section in your account.
 Copy your API key, which will be needed to access weather data.
 **1.2 Clone the Repository**
-bash
-Copy code
-git clone https://github.com/your-username/weather-monitoring-system.git
-cd weather-monitoring-system
+
+--git clone https://github.com/your-username/weather-monitoring-system.git
+--cd weather-monitoring-system
 **1.3 Configure the Project**
 Update config.py with your API key, preferred cities, and polling intervals:
-
 Open src/config.py:
 OPENWEATHER_API_KEY = 'your_openweather_api_key_here'  # Replace with your actual API key
 CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad']  # You can modify the city list here
